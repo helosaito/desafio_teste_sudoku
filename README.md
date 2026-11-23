@@ -8,9 +8,8 @@ Cada casa é `0`, `1` ou `null`, que representa casa vazia. A validação verifi
 
 ## Colaboradores
 
-- Heloísa Sayuri Silva Saito
-
-- Maria Eduarda de Castro Lachimia
+- Heloísa Sayuri Silva Saito | RA: 24062631-2
+- Maria Eduarda de Castro Lachimia | RA: 24055202-2
 
 ## Arquivos
 

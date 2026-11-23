@@ -1,4 +1,4 @@
-# Sudoku Binário 6 × 6 — Desafio de testes
+# Sudoku Binário 6 × 6 — Desafio de Testes
 
 ## Desafio
 

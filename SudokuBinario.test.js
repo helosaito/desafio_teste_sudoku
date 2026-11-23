@@ -76,3 +76,11 @@ test('rejeita dimensões e valores iniciais fora do domínio', () => {
     tabuleiro[0][0] = 2;
     assert.throws(() => new SudokuBinario(tabuleiro), /null, 0 ou 1/);
 });
+
+
+test('rejeita posições fora do tabuleiro e índices fracionários', () => {
+    const jogo = new SudokuBinario();
+    assert.throws(() => jogo.set(6, 0, 1), /Posição inválida/);
+    assert.throws(() => jogo.set(0.5, 0, 1), /Posição inválida/);
+    assert.throws(() => jogo.set(0, 6, 1), /Posição inválida/);
+});

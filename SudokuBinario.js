@@ -92,16 +92,3 @@ class SudokuBinario {
         );
     }
 
-    resolvido() {
-        if (!this.completo() || !this.validar()) {
-            return false;
-        }
-        const linhasUnicas = new Set(this.tabuleiro.map((linha) => linha.join(''))).size === 6;
-        const colunas = this.tabuleiro[0].map((_, coluna) =>
-            this.tabuleiro.map((linha) => linha[coluna]).join('')
-        );
-        return linhasUnicas && new Set(colunas).size === 6;
-    }
-}
-
-module.exports = { SudokuBinario };
